@@ -1955,8 +1955,9 @@
   const view=document.getElementById("viewSeller");
   if(!view) return;
 
-  view.innerHTML=`
+view.innerHTML = `
 <section class="card arenaCard">
+
 <div class="cardHeader">
 <div class="arenaTitle">
 <h2>Arena de Resultados</h2>
