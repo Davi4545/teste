@@ -2068,13 +2068,11 @@ ${rows.map((r,i)=>`
 
 </div>
 `;
-  }
 
-  sel.onchange=update;
-  mkInput.onchange=update;
+  sel.onchange = update;
+  mkInput.onchange = update;
 
   update();
-}
 
     const mkInput = document.getElementById('sellerViewMonth');
     const sel = document.getElementById('sellerViewSelect');
